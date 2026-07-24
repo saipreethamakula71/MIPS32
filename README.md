@@ -1,4 +1,16 @@
 # MIPS32
+##### Things Done So far :
+    ALU, Branching, Conditional Branching and Memory Operations 
+    Mitigted Control Hazards using Pipeline stalling and Flushing
+    Assembler.py to convert custom Assembly code to Binary Inatructions 
+    Assembler also keeps in mind Data Hazards and reorders Instructions or inserts NOPs if necessary.
+
+###### Future Updates : 
+    Branch Prediction
+    Hazard detection unit 
+    Forwarding
+    Memory Optimisation using Cache 
+
 Implementing a MIPS32 processor in Verilog and testing it using a testbench . What is MIPS32 ? 
 MIPS32 is a 32-bit Reduced Instruction Set Computer (RISC) architecture , it is widely used in embedded systems, networking equipment, routers, automotive systems, and microcontrollers.
 
@@ -94,10 +106,7 @@ In this stage we either store values in or from memory ( 4K Byte )
 In this stage we write back into registers and Memory. 
 
 
-###### Future Updates : 
-    Assembler.py
-    Branch Prediction
-    Cache Inclusion 
+
     
     
     
