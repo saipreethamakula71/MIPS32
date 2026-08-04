@@ -39,6 +39,8 @@ max 1023 instructons (32 bit each )
 instruction memory , PC , ALU , Register Bank , memory 
 clock : 2 clock cycles 
 5 stages : Instruciton Read, Instruction Decode, Execute, Memory, Write Back
+<img width="7716" height="2680" alt="image" src="https://github.com/user-attachments/assets/d6491569-9f60-4ea4-8814-4014f69f7bf9" />
+
 
 ##### Instruction Read / Instruction Fetch : 
 
